@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root{
+      --white: hsl(0, 0%, 100%);
+      --light-gray: hsl(212, 45%, 89%);
+      --grayish-blue: hsl(220, 15%, 55%);
+      --dark-blue: hsl(218, 44%, 22%);
+    }
+
+    html{
+      font-family: 'Outfit', sans-serif;
+      background-color: var(--light-gray);
+    }
+
+    body{
+      display: grid;
+      place-content: center;
+
+    }
+
+    html, body{
+      height: 100%;
+    }
+
+    main {
+      padding: 12px;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 320px;
+      background-color: var(--white);
+      box-shadow: 0 0 36px rgba(0, 0, 0, 0.2);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    img{
+      width: 100%;
+      object-fit: contain;
+      border-radius: 12px;
+    }
+
+    section {
+      padding: 12px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    p{
+      color: var(--grayish-blue);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="./images/image-qr-code.png" />
+    <section>
+      <h2>Improve your front-end skills by building projects</h2>
+    <p>  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </section>
+  </main>
+
+  
+
+</body>
+</html>
